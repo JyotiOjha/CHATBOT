@@ -100,6 +100,7 @@ def chat():
     print(" How can I help you ?")
     print("   Enter 1 to register complaint \n   Enter 2 to learn\n")
     print(" * Enter quit when you want to exit\n")
+    print("chatbot........")
     chat = Chat(pairs, reflections)
     chat.converse()
 #initiate the conversation
